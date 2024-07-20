@@ -10,4 +10,6 @@ WORKDIR /home/uputtuserbot/
 
 RUN pip install -r requirements.txt
 
+EXPOSE 8087
+
 CMD ["bash","start"]
